@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(80,128,254);
+}
+#main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+#action_container{
+    text-align: center;
+    
+    
+}
+#heading{
+   color: white;
+}
+#subheading{
+    color: white;
+}
+#input{
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    font-size: 1.2rem;
+   
+}
+#but{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#info_container{
+    text-align: center;
+    margin-top: 50px;
+}
+#weather_info{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+#weather_info h1,h3{
+    color: white;
+}
+#weather_image{
+    width: 150px;
+    height: 100px;
+    border-radius: 50px
+}
+#temparature{
+    font-size: 50px;
+    color: white;
+}
+#condition{
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#wind{
+    font-size: 20px;
+}
+ #humidity{
+    font-size: 20px;
+}
+ 
+ #precision{
+    font-size: 20px;
+}
+
